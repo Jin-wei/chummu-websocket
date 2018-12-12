@@ -1,0 +1,35 @@
+{
+  "name": "restify-bw-websocket",
+  "version": "0.0.1",
+  "description": "bw web socket",
+  "main": "main.js",
+  "dependencies": {
+    "log4js": "1.1.0",
+    "posix-getopt": "1.0.0",
+    "restify": "4.0.3",
+    "restify-errors" :"*",
+    "ws" : "3.3.2",
+    "mp-common-util" : "https://github.com/mpinc/common-util.git#master"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-filerev": "^2.1.2",
+    "grunt-usemin": "^2.6.2",
+    "grunt-replace": "*",
+    "methods": "*",
+    "mocha": "*",
+    "superagent": "*",
+    "supertest": "*"
+  },
+  "scripts": {
+    "start": "node main.js 2>&1",
+    "test": "mocha test"
+  },
+  "author": "Jie Zou",
+  "license": ""
+}

@@ -1,0 +1,6 @@
+{
+    "logLevel":"DEBUG",
+    "logFileFullName":"../ws-websocket.log",
+    "logBackups":10,
+    "logMaxSize":2048000
+}

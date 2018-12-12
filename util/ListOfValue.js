@@ -1,0 +1,10 @@
+var NEW_ORDER="1";
+var CALL_OUT="99";
+var ORDER_DISH="88";//确认下单
+var CHANGE_DISH="87";//点菜
+module.exports = {
+    NEW_ORDER:NEW_ORDER,
+    CALL_OUT:CALL_OUT,
+    ORDER_DISH:ORDER_DISH,
+    CHANGE_DISH:CHANGE_DISH
+}
